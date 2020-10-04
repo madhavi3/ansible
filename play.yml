@@ -2,7 +2,7 @@
 - hosts: worker
   become: yes
   tasks:
-- name: copying a file
-  copy:
-    src: /home/ubuntu/newfile
-    dest: /home/ansible1
+    - name: copying a file
+      copy:
+              src: /home/ubuntu/newfile
+              dest: /home/ansible1
