@@ -5,4 +5,4 @@
     - name: copying a file
       copy:
               src: /home/ubuntu/newfile
-              dest: /home/ansible
+              dest: /home/ansible1
